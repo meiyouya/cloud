@@ -1,0 +1,13 @@
+server:
+  port: 7001
+
+# spring
+spring:
+  application:
+    name: hi-service  # 这个名字很重要，服务于服务之间相互调用就是通过这个名字
+
+# eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/   # 与server里的defaultZone一致
