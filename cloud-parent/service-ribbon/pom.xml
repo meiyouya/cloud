@@ -18,6 +18,12 @@
     </parent>
 
     <dependencies>
+        <!--hystrix-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+
         <!--eureka client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

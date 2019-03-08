@@ -12,7 +12,7 @@ public class HiController {
     @Autowired
     private HiService hiService;
 
-    @GetMapping
+    @GetMapping("/hi")
     public String sayHi(@RequestParam String name) {
         return hiService.sayHi(name);
     }
