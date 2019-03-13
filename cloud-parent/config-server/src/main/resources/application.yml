@@ -1,1 +1,15 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/meiyouya/cloud  # 只能指定到仓库地址
+          username:     # 用户名密码只有在库是私有库的时候才需要
+          password:
+          search-paths: cloud-config/cloud-parent-config  # 指定在仓库在的路径
+      label: master   # 指定分支
 
+server:
+  port: 5000

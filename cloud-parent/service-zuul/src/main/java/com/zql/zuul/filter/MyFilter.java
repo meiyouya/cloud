@@ -1,8 +1,8 @@
+/*
 package com.zql.zuul.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
-import com.netflix.zuul.exception.ZuulException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
@@ -49,3 +49,4 @@ public class MyFilter extends ZuulFilter {
         return null;
     }
 }
+*/
