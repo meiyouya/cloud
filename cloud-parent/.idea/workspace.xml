@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64caeb52-20bd-4031-a5f4-39ab97378215" name="Default Changelist" comment="add config server and client module,but config-client module still has a problem,it will be resolved next time">
-      <change afterPath="$PROJECT_DIR$/config-client/src/main/java/com/zql/config/client/ConfigClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud-config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-config/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="64caeb52-20bd-4031-a5f4-39ab97378215" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/zql/config/server/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/zql/config/server/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hi-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hi-client/src/main/java/com/zql/hi/HiClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hi-client/src/main/java/com/zql/hi/HiClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-log/src/main/java/com/zql/log/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-log/src/main/java/com/zql/log/controller/LogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-zuul/src/main/java/com/zql/zuul/filter/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-zuul/src/main/java/com/zql/zuul/filter/MyFilter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,18 +53,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="210">
+              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -315,7 +310,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552448730765" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552449693598" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -444,7 +439,7 @@
       <workItem from="1552441180084" duration="1375000" />
       <workItem from="1552442565066" duration="5000" />
       <workItem from="1552442572384" duration="4781000" />
-      <workItem from="1552447477749" duration="1177000" />
+      <workItem from="1552447477749" duration="2814000" />
     </task>
     <task id="LOCAL-00001" summary="1、feign的断路器使用&#10;2、ribbon的断路器">
       <created>1552025409682</created>
@@ -467,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552385700618</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add config server and client module,but config-client module still has a problem,it will be resolved next time">
+      <created>1552448756515</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552448756515</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47249000" />
+    <option name="totallyTimeSpent" value="48886000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,7 +487,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2786533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2786533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -507,7 +509,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32928476" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.16554509" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.16554509" />
       <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49928263" weight="0.4010767" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -564,7 +566,8 @@
     <MESSAGE value="1、feign的断路器使用&#10;2、ribbon的断路器" />
     <MESSAGE value="1、hi模块修改名称&#10;2、zuul过滤器" />
     <MESSAGE value="swagger2" />
-    <option name="LAST_COMMIT_MESSAGE" value="swagger2" />
+    <MESSAGE value="add config server and client module,but config-client module still has a problem,it will be resolved next time" />
+    <option name="LAST_COMMIT_MESSAGE" value="add config server and client module,but config-client module still has a problem,it will be resolved next time" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hi-client/src/main/java/com/zql/hi/controller/HiController.java" />
@@ -855,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/zql/config/client/ConfigClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -876,7 +872,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
