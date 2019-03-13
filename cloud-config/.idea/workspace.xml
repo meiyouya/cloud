@@ -23,7 +23,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-parent-config/dev.properties">
+        <entry file="file://$PROJECT_DIR$/cloud-parent-config/config-client-dev.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="10" selection-start-column="10" selection-end-column="10" />
@@ -77,6 +77,11 @@
               <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cloud-config" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-parent-config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -88,7 +93,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552444314423" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552444703537" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -118,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552442970138</updated>
       <workItem from="1552442972708" duration="257000" />
-      <workItem from="1552443238135" duration="964000" />
+      <workItem from="1552443238135" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="add config for project cloud-parent">
       <created>1552443747061</created>
@@ -134,11 +139,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552444041458</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rename properties">
+      <created>1552444351365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552444351365</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="622000" />
+    <option name="totallyTimeSpent" value="953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -178,10 +190,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add config for project cloud-parent" />
     <MESSAGE value="add version config" />
-    <option name="LAST_COMMIT_MESSAGE" value="add version config" />
+    <MESSAGE value="rename properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename properties" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-parent-config/dev.properties">
+    <entry file="file://$PROJECT_DIR$/cloud-parent-config/config-client-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="10" selection-start-column="10" selection-end-column="10" />
