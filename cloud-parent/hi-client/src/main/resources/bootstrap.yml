@@ -11,6 +11,15 @@ spring:
     password: 521xwl54zql@MYSQL
     url: jdbc:mysql://39.108.92.8:3306/test
 
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:5000/
+      discovery:
+        enabled: true
+        service-id: config-server
+
 # eurekas
 eureka:
   client:

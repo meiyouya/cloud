@@ -6,6 +6,15 @@ spring:
       label: master
       profile: dev
       uri: http://localhost:5000/
+      discovery:
+        enabled: true # 开启从配置中心读配置
+        service-id: config-server # 配置中心服务的id
+
 
 server:
-  port: 6666
+  port: 6000
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
