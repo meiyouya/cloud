@@ -7,6 +7,7 @@
         <artifactId>cloud-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <artifactId>config-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>config-client</name>
@@ -14,11 +15,13 @@
     <description>config-client</description>
 
     <dependencies>
+        <!--config-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
 
+        <!--web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

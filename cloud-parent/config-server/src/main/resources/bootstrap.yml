@@ -13,3 +13,9 @@ spring:
 
 server:
   port: 5000
+
+# eurekas
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
