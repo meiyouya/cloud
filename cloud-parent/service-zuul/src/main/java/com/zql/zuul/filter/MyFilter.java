@@ -1,4 +1,3 @@
-/*
 package com.zql.zuul.filter;
 
 import com.netflix.zuul.ZuulFilter;
@@ -49,4 +48,3 @@ public class MyFilter extends ZuulFilter {
         return null;
     }
 }
-*/

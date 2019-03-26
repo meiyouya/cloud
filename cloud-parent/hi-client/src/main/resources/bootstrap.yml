@@ -1,0 +1,18 @@
+server:
+  port: 7001
+
+# spring
+spring:
+  application:
+    name: lawliet-hi
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 521xwl54zql@MYSQL
+    url: jdbc:mysql://39.108.92.8:3306/test
+
+# eurekas
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

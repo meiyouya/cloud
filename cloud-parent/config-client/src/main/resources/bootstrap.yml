@@ -8,4 +8,4 @@ spring:
       uri: http://localhost:5000/
 
 server:
-  port: 6000
+  port: 6666
