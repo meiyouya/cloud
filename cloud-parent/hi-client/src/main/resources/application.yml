@@ -4,7 +4,12 @@ server:
 # spring
 spring:
   application:
-    name: service-hi
+    name: lawliet-hi
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 521xwl54zql@MYSQL
+    url: jdbc:mysql://39.108.92.8:3306/test
 
 # eurekas
 eureka:

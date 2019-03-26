@@ -14,4 +14,4 @@ eureka:
 # spring
 spring:
   application:
-    name: eureka-server
+    name: lawliet-eureka
