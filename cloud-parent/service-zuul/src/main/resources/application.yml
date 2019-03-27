@@ -1,0 +1,26 @@
+server:
+  port: 7005
+
+spring:
+  application:
+    name: lawliet-zuul
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:5000/
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  routes:
+    api-hi:
+      path: /api-hi/**    # the zuul will direct this path to the corresponding service
+      serviceId: lawliet-hi   # this is the service will be redirected to
+      # the above two parameters mean that all request which start with /api-hi/ will redirect to service name 'service-hi'
+    api-feign:
+      path: /api-feign/**
+      serviceId: lawliet-feign
