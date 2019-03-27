@@ -17,6 +17,12 @@
     </parent>
 
     <dependencies>
+        <!--config-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+
         <!--mysql-->
         <dependency>
             <groupId>mysql</groupId>
