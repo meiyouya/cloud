@@ -1,0 +1,10 @@
+server:
+    port: 7000
+
+spring:
+    application:
+        name: lawliet-hi
+    cloud:
+        nacos:
+            discovery:
+                server-addr: localhost:8848

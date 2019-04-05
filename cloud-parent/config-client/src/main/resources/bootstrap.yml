@@ -2,6 +2,7 @@ spring:
   application:
     name: config-client
   cloud:
+    # 配置中心
     config:
       label: master
       profile: dev
@@ -9,7 +10,23 @@ spring:
       discovery:
         enabled: true # 开启从配置中心读配置
         service-id: config-server # 配置中心服务的id
+    # bus
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  # rabbitMQ
+  rabbitmq:
+    host: 39.108.92.8
+    port: 5672
+    username: admin
+    password: admin
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
 
 server:
   port: 6000
