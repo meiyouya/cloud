@@ -30,6 +30,9 @@ spring:
     port: 5672
     username: admin
     password: admin
+  # zipkin
+  zipkin:
+    base-url: localhost:9411
 
 management:
   endpoints:
