@@ -4,20 +4,24 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.zql</groupId>
-        <artifactId>cloud-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <artifactId>lawliet-alibaba-cloud</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>config-server</artifactId>
+    <groupId>com.zql</groupId>
+    <artifactId>lawliet-hiclient</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>config-server</name>
-    <description>config-server</description>
+    <name>lawliet-hiclient</name>
+
+    <properties>
+        <java.version>11</java.version>
+    </properties>
 
     <dependencies>
-        <!--eureka-client-->
+        <!--nacos-discovery-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
         <!--web-->
@@ -25,13 +29,15 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
-        <!--config-server-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
-        </dependency>
-
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

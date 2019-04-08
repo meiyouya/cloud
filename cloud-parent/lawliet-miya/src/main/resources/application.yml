@@ -1,0 +1,17 @@
+server:
+    port: 7009
+
+# spring
+spring:
+    application:
+        name: lawliet-miya
+
+    # zipkin
+    zipkin:
+        base-url: localhost:9411
+
+# eurekas
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:8761/eureka/
