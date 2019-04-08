@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+# eureka
+eureka:
+  instance:
+    hostname: lawliet-eureka1
+  client:
+    service-url:
+      defaultZone: http://lawliet-eureka2:8762/eureka/
+
+# spring
+spring:
+  profiles:
+    active: peer1
