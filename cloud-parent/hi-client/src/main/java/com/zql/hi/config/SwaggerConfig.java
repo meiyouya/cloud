@@ -1,3 +1,4 @@
+/*
 package com.zql.hi.config;
 
 import org.springframework.context.annotation.Bean;
@@ -30,3 +31,4 @@ public class SwaggerConfig {
                 .build();
     }
 }
+*/

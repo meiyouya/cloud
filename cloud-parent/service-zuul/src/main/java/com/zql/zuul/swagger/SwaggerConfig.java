@@ -1,3 +1,4 @@
+/*
 package com.zql.zuul.swagger;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,3 +45,4 @@ public class SwaggerConfig {
         return swaggerResource;
     }
 }
+*/

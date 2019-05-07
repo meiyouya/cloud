@@ -11,34 +11,34 @@ spring:
     password: 521xwl54zql@MYSQL
     url: jdbc:mysql://39.108.92.8:3306/test
 
-  cloud:
-    config:
-      label: master
-      profile: dev
-      uri: http://localhost:5000/
-      discovery:
-        enabled: true
-        service-id: config-server
+#  cloud:
+#    config:
+#      label: master
+#      profile: dev
+#      uri: http://localhost:5000/
+#      discovery:
+#        enabled: true
+#        service-id: config-server
     # bus
-    bus:
-      enabled: true
-      trace:
-        enabled: true
+#    bus:
+#      enabled: true
+#      trace:
+#        enabled: true
   # rabbitMQ
-  rabbitmq:
-    host: 39.108.92.8
-    port: 5672
-    username: admin
-    password: admin
+#  rabbitmq:
+#    host: 39.108.92.8
+#    port: 5672
+#    username: admin
+#    password: admin
   # zipkin
-  zipkin:
-    base-url: localhost:9411
+#  zipkin:
+#    base-url: localhost:9411
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: bus-refresh
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: bus-refresh
 
 # eurekas
 eureka:

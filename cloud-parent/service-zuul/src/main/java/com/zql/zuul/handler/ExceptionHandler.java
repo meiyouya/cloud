@@ -1,3 +1,4 @@
+/*
 package com.zql.zuul.handler;
 
 import org.springframework.boot.autoconfigure.web.ErrorProperties;
@@ -19,12 +20,14 @@ public class ExceptionHandler extends DefaultErrorWebExceptionHandler {
         super(errorAttributes, resourceProperties, errorProperties, applicationContext);
     }
 
-    /**
+    */
+/**
      * 获取异常属性
      * @param request
      * @param includeStackTrace
      * @return
-     */
+     *//*
+
     @Override
     protected Map<String, Object> getErrorAttributes(ServerRequest request, boolean includeStackTrace) {
         int code = 500;
@@ -32,31 +35,37 @@ public class ExceptionHandler extends DefaultErrorWebExceptionHandler {
         return response(code,this.buildMessage(request,error));
     }
 
-    /**
+    */
+/**
      *  指定响应处理方法为json
      * @param errorAttributes
      * @return
-     */
+     *//*
+
     protected RouterFunction<ServerResponse> getRoutingFunction(ErrorAttributes errorAttributes) {
         return RouterFunctions.route(RequestPredicates.all(),this::renderErrorResponse);
     }
 
-    /**
+    */
+/**
      * 根据code得到HttpStatus对象
      * @param errorAttributes
      * @return
-     */
+     *//*
+
     protected HttpStatus getHttpStatus(Map<String,Object> errorAttributes) {
         int statusCode = (int) errorAttributes.get("code");
         return HttpStatus.valueOf(statusCode);
     }
 
-    /**
+    */
+/**
      * 构建异常信息
      * @param request
      * @param error
      * @return
-     */
+     *//*
+
     private String buildMessage(ServerRequest request, Throwable error) {
         StringBuilder message = new StringBuilder("failed to handler request[");
         message.append(request.method());
@@ -70,12 +79,14 @@ public class ExceptionHandler extends DefaultErrorWebExceptionHandler {
         return message.toString();
     }
 
-    /**
+    */
+/**
      * 构建返回的json数据
      * @param code
      * @param errorMessage
      * @return
-     */
+     *//*
+
     private Map<String, Object> response(int code, String errorMessage) {
         HashMap<String, Object> map = new HashMap<>();
         map.put("code",code);
@@ -84,3 +95,4 @@ public class ExceptionHandler extends DefaultErrorWebExceptionHandler {
         return map;
     }
 }
+*/
